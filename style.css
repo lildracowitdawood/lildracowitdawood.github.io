@@ -9,3 +9,8 @@ p {
 .one {
   text-align: center;
 }
+
+.resize-image {
+  width: 50%;
+  height: auto; 
+}
