@@ -19,3 +19,23 @@ p {
   width: 45%;
   height: auto; 
 }
+
+.contact-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.contact-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-button a:hover {
+    background-color: #0056b3;
+}
