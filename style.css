@@ -23,13 +23,12 @@ p {
 
 .contact-button {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 50px;
+    right: 50px;
 }
 
 .contact-button a {
     display: inline-block;
-    padding: 50px 60px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
