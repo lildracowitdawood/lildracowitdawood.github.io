@@ -8,8 +8,9 @@ p {
 }
 
 .img {
-  text-align: center;
-  padding-bottom: 50px;
+  width:100%;
+  display: flex;
+  justify-content: center;
 }
 
 .resize-image {
