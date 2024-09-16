@@ -1,3 +1,11 @@
+.image {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  height: 100vh; /* Sets the height of the container to full viewport height */
+}
+
+/* The rest of your CSS remains unchanged */
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 58px;
@@ -6,12 +14,6 @@ p {
 .header {
   padding-top: 10px;
   text-align: center;
-}
-
-.image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .resize-image {
