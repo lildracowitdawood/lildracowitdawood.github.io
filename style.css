@@ -6,13 +6,8 @@
 }
 
 /* The rest of your CSS remains unchanged */
-p {
+title {
   font-family: "Times New Roman", Times, serif;
-  font-size: 58px;
-}
-
-.header {
-
 }
 
 .resize-image {
