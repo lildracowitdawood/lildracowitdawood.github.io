@@ -9,26 +9,40 @@ p {
 }
 
 .image {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .resize-image {
-  width: 30%;
-  height: auto; 
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Set a maximum width */
+}
+
+/* Adjust size on larger screens */
+@media (min-width: 768px) {
+  .resize-image {
+    width: 50%; /* 50% of the container width */
+  }
+}
+
+@media (min-width: 1024px) {
+  .resize-image {
+    width: 30%; /* 30% of the container width */
+  }
 }
 
 .contact-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 .contact-button a {
-    display: inline-block;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 16px;
+  display: inline-block;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 16px;
 }
