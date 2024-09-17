@@ -1,8 +1,21 @@
-.image {
+.container {
   display: flex;
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center; /* Centers the image vertically */
-  height: 100vh; /* Sets the height of the container to full viewport height */
+  justify-content: center; /* Centers the flex items horizontally */
+  align-items: center; /* Centers the flex items vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.image, .embed {
+  margin: 0 20px; /* Adds some space around the items */
+}
+
+.image {
+  max-width: 600px; /* Keeps the max width for the image */
+}
+
+.resize-image {
+  width: 100%;
+  height: auto;
 }
 
 /* The rest of your CSS remains unchanged */
@@ -12,25 +25,6 @@ p {
   left: 20px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-}
-
-.resize-image {
-  width: 100%;
-  height: auto;
-  max-width: 600px; /* Set a maximum width */
-}
-
-/* Adjust size on larger screens */
-@media (min-width: 768px) {
-  .resize-image {
-    width: 50%; /* 50% of the container width */
-  }
-}
-
-@media (min-width: 1024px) {
-  .resize-image {
-    width: 30%; /* 30% of the container width */
-  }
 }
 
 .contact-button {
