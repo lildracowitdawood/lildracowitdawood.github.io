@@ -7,9 +7,29 @@
 }
 
 /* Embed styling */
-.embed {
+.embed iframe {
   width: 100%;
-  max-width: 1200px; /* Optional: set a max width for the embed */
+  max-width: 1200px; /* Maximum width for larger screens */
+  height: auto;
+}
+
+/* Make the embed responsive */
+@media screen and (max-width: 1600px) {
+  .embed iframe {
+    height: 600px; /* Smaller height for medium screens */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .embed iframe {
+    height: 500px; /* Smaller height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .embed iframe {
+    height: 400px; /* Height adjustment for very small screens */
+  }
 }
 
 /* Header styling */
