@@ -11,20 +11,20 @@
 
 /* Logo styling */
 .logo-container img {
-  width: 100px; /* Default logo size */
+  width: 200px; /* Increased logo size */
   height: auto;
   max-width: 100%;
 }
 
 /* Embed styling */
 .embed {
-  width: 60%; /* Embed takes up 60% of the available width */
+  width: 60%; /* Embed stays at 60% of the available width */
 }
 
 /* For mobile responsiveness */
 @media (max-width: 600px) {
   .logo-container img {
-    width: 80px; /* Smaller size for mobile */
+    width: 120px; /* Slightly smaller logo for mobile */
   }
 
   .embed {
