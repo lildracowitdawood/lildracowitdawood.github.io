@@ -1,3 +1,24 @@
+/* Logo styling */
+.logo-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10; /* Makes sure the logo is on top */
+}
+
+.logo-container img {
+  width: 150px; /* Default logo size */
+  height: auto;
+  max-width: 100%;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 600px) {
+  .logo-container img {
+    width: 100px; /* Smaller size for mobile */
+  }
+}
+
 /* Centering container and embed */
 .container {
   display: flex;
@@ -15,7 +36,7 @@
 /* Contact button styling */
 .contact-button {
   position: fixed;
-  top: 20px;
+  top: 60px;
   right: 20px;
 }
 
