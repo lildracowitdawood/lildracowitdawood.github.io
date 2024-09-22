@@ -7,7 +7,7 @@
 }
 
 .logo-container img {
-  width: 150px; /* Default logo size */
+  width: 100px; /* Default logo size */
   height: auto;
   max-width: 100%;
 }
