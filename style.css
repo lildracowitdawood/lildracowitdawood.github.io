@@ -12,15 +12,6 @@
   max-width: 1200px; /* Optional: set a max width for the embed */
 }
 
-/* Header styling */
-p {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-}
-
 /* Contact button styling */
 .contact-button {
   position: fixed;
