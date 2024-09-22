@@ -1,39 +1,43 @@
-/* Logo styling */
-.logo-container {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 10; /* Makes sure the logo is on top */
+/* Flexbox container for logo and embed */
+.header {
+  display: flex;
+  justify-content: space-between; /* Aligns logo to left and embed to right */
+  align-items: center; /* Vertically aligns both elements */
+  width: 100%;
+  padding: 20px; /* Adds spacing around the header */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  height: 100vh; /* Full viewport height */
 }
 
+/* Logo styling */
 .logo-container img {
   width: 100px; /* Default logo size */
   height: auto;
   max-width: 100%;
 }
 
+/* Embed styling */
+.embed {
+  width: 60%; /* Embed takes up 60% of the available width */
+}
+
 /* For mobile responsiveness */
 @media (max-width: 600px) {
   .logo-container img {
-    width: 100px; /* Smaller size for mobile */
+    width: 80px; /* Smaller size for mobile */
+  }
+
+  .embed {
+    width: 100%; /* Embed takes full width on mobile */
+  }
+
+  .header {
+    flex-direction: column; /* Stacks elements vertically on mobile */
+    align-items: center;
   }
 }
 
-/* Centering container and embed */
-.container {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 100vh; /* Full viewport height */
-}
-
-/* Embed styling */
-.embed {
-  width: 100%;
-  max-width: 1200px; /* Optional: set a max width for the embed */
-}
-
 body {
-    background-color: black;
-    color: white; /* Optional: changes text color to white for contrast */
+  background-color: black;
+  color: white; /* Optional: changes text color to white for contrast */
 }
